@@ -20,12 +20,20 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.content == '!SCP173':
+    if message.content == '!SCP173 ':
         await client.send_message(message.channel,'SCP-173 is to be kept in a locked container at all times. When personnel must enter SCP-173 container, no fewer than 3 may enter at any time and the door is to be relocked behind them. At all times, two persons must maintain direct eye contact with SCP-173 until all personnel have vacated and relocked the container.')
     if message.content == '!SCP079':
         await client.send_message(message.channel,'SCP-079 is an Exidy Sorcerer microcomputer built in 1978. In 1981, its owner, █████ ██████ (deceased), a college sophomore attending ███, took it upon himself to attempt to code an AI. According to his notes, his plan was for the code to continuously evolve and improve itself as time went on. His project was completed a few months later, and after some tests and tweaks, █████ lost interest and moved on to a different brand of microcomputer. He left SCP-079 in his cluttered garage, still plugged in, and forgot about it for the next five years.')
     if message.content == '!SCP049':
         await client.send_message(message.channel,'SCP-049 is contained within a Standard Secure Humanoid Containment Cell in Research Sector-02 at Site-19. SCP-049 must be sedated before any attempts to transport it. During transport, SCP-049 must be secured within a Class III Humanoid Restriction Harness (including a locking collar and extension restraints) and monitored by no fewer than two armed guards.')
-if message.content == '!SCP1510':
-    await client.send_message(message.channel,'SCP-1510 is to be kept in a standard storage compartment in the Artifact Containment section of Site 19, kept dry and cool to prevent any damage to the fragile metal. It is to be polished and checked for rust every two weeks. A D-class personnel is to wear SCP-1510 for two (2) hours every day, in order to allow interviewers and mental health personnel access to SCP-1510-1. If SCP-1510-1 exhibits any violent behavior, this procedure may be revoked at the discretion of Dr. Stevenson, project Resurgum supervisor.
-client.run('NDk1Mjg4MTYxNjk4NTc4NDUy.DpGQVQ.AtNKmv_uqEyyFpk_75GyxqvEy04')                              
+    if message.content == '!SCP1510':
+        await client.send_message(message.channel,'SCP-1510 is to be kept in a standard storage compartment in the Artifact Containment section of Site 19, kept dry and cool to prevent any damage to the fragile metal. It is to be polished and checked for rust every two weeks. A D-class personnel is to wear SCP-1510 for two (2) hours every day, in order to allow interviewers and mental health personnel access to SCP-1510-1. If SCP-1510-1 exhibits any violent behavior, this procedure may be revoked at the discretion of Dr. Stevenson, project Resurgum supervisor.')
+    if message.content == '!SCP734':
+        await client.send_message(message.channel,'SCP-743 is to be kept in a Level-4 carbide-steel secure container, 1.5 m x 75 cm x 75 cm, no less than 5 cm thick. This container will itself be kept in a Level-4 secure room, 10 m x 10 m, with enhanced hard-metal lining. A full array of redundant sensors within the container will remain trained on SCP-743; another array of sensors will watch the container for any signs of breach. Video, audio, and data feeds from all arrays will pass to a control room manned at all times by at least two personnel. Any abnormal or aggressive activity by SCP-743 must immediately be reported to Level 4 staff.')
+    if message.content == '!SCP500':
+        await client.send_message(message.channel,' SCP-500 is a small plastic can which at the time of writing contains forty-seven (47) red pills. One pill, when taken orally, effectively cures the subject of all diseases within two hours, exact time depending on the severity and amount of the subject conditions. Despite extensive trials, all attempts at synthesizing more of what is thought to be the active ingredient of the pills have been unsuccessful.')
+    if message.content == '!SCP2598':
+        await client.send_message(message.channel,'SCP-2598 is a Large Yellow Underwing moth (Noctua pronuba) wearing a small helmet. Apart from this, and its behavior, no other anomalous characteristics are discernible.')
+    if message.content == '!SCP035':
+        await client.send_message(message.channel,'SCP-035 appears to be a white porcelain comedy mask, although, at times, it will change to tragedy. In these events, all existing visual records, such as photographs, video footage, even illustrations, of SCP-035 automatically change to reflect its new appearance.')
+client.run('NDk1Mjg4MTYxNjk4NTc4NDUy.DpV9ag.0IAj0WyggufiXxcmENwN3l8leQ8')
