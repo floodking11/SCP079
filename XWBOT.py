@@ -14,7 +14,7 @@ Clientdiscord = discord.Client()
 
 @client.event
 async def on_ready():
-    await client.change_presence(game=Game(name='      '))
+    await client.change_presence(game=Game(name='with Gate A'))
     print('Ready, Freddy') 
 
 
@@ -29,7 +29,7 @@ async def on_message(message):
     if message.content == '!SCP734':
         await client.send_message(message.channel,'SCP-743 is to be kept in a Level-4 carbide-steel secure container, 1.5 m x 75 cm x 75 cm, no less than 5 cm thick. This container will itself be kept in a Level-4 secure room, 10 m x 10 m, with enhanced hard-metal lining. A full array of redundant sensors within the container will remain trained on SCP-743; another array of sensors will watch the container for any signs of breach. Video, audio, and data feeds from all arrays will pass to a control room manned at all times by at least two personnel. Any abnormal or aggressive activity by SCP-743 must immediately be reported to Level 4 staff.')
     if message.content == '!SCP500':
-        await client.send_message(message.channel,' SCP-500 is a small plastic can which at the time of writing contains forty-seven (47) red pills. One pill, when taken orally, effectively cures the subject of all diseases within two hours, exact time depending on the severity and amount of the subject's conditions. Despite extensive trials, all attempts at synthesizing more of what is thought to be the active ingredient of the pills have been unsuccessful.')
+        await client.send_message(message.channel,' SCP-500 is a small plastic can which at the time of writing contains forty-seven (47) red pills. One pill, when taken orally, effectively cures the subject of all diseases within two hours, exact time depending on the severity and amount of the subject conditions. Despite extensive trials, all attempts at synthesizing more of what is thought to be the active ingredient of the pills have been unsuccessful.')
     if message.content == '!SCP2598':
         await client.send_message(message.channel,'SCP-2598 is a Large Yellow Underwing moth (Noctua pronuba) wearing a small helmet. Apart from this, and its behavior, no other anomalous characteristics are discernible.')
     if message.content == '!SCP035':
@@ -37,7 +37,7 @@ async def on_message(message):
     if message.content == '!SCP714':
         await client.send_message(message.channel,'Within minutes of putting on SCP-714, wearers report feeling worn out - physically and mentally exhausted. Due to this, they will feel driven to "sit down and rest for a bit" on the nearest available furniture, and will likely fall asleep within the space of a few hours. If someone falls asleep wearing SCP-714, the only known means of waking them is to remove SCP-714, at which point they may be roused by anything that would normally wake them up. Exhaustion effects pass within two or three hours of removing SCP-714 if removed from a conscious subject; those that fall asleep wearing SCP-714 report feeling well-rested if SCP-714 is removed, even if they slept for only a few minutes.')
     if message.content == '!SCP100':
-        await client.send_message(message.channel,' SCP-100 is an abandoned scrapyard eighty (80) kilometers from █████████, South Carolina, known as "Jamaican Joe's Junkyard Jubilee". The scrapyard covers roughly five thousand (5,000) square meters of fenced-off land, consisting of two warehouses, a storefront, and a small residential building, as well as neglected land and land used for storage. SCP-100 holds roughly fifteen hundred (1,500) vehicles, both pressed and unpressed, as well as roughly fourteen hundred (1,400) kilograms of separate scrap, estimated to be worth $5,000 (€3,870).')
+        await client.send_message(message.channel,' SCP-100 is an abandoned scrapyard eighty (80) kilometers from █████████, South Carolina, known as "Jamaican Joe Junkyard Jubilee". The scrapyard covers roughly five thousand (5,000) square meters of fenced-off land, consisting of two warehouses, a storefront, and a small residential building, as well as neglected land and land used for storage. SCP-100 holds roughly fifteen hundred (1,500) vehicles, both pressed and unpressed, as well as roughly fourteen hundred (1,400) kilograms of separate scrap, estimated to be worth $5,000 (€3,870).')
     if message.content == '!SCP106':
         await client.send_message(message.channel,'No physical interaction with SCP-106 is allowed at any time. All physical interaction must be approved by no less than a two-thirds vote from O5-Command. Any such interaction must be undertaken in AR-II maximum security sites, after a general non-essential staff evacuation. All staff (Research, Security, Class D, etc.) are to remain at least sixty meters away from the containment cell at all times, except in the event of breach events.')
     if message.content == '!SCP009':
